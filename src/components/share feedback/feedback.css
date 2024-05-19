@@ -1,0 +1,70 @@
+#feedback{
+    width:430px;
+    height: 520px;
+    background-color: pink;
+}
+
+#card{
+    width:430px ;
+    height:448px;
+    border-radius: 8px;
+    padding: 24px, 16px, 24px, 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color:#F8F8F8 ;
+}
+
+#header{
+    width: 398px;
+    height: 72px;
+    gap: 24px;
+    padding-top: 30px;
+    font-family: "Poppins", sans-serif;
+    padding: 24px, 16px, 24px, 16px;
+    
+
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: Center;
+    color: #4D4D4D;
+    width: 326px;
+    height: 48px;
+}
+
+#divider{
+    border-bottom: 2px solid #CCCCCC;
+    width: 398px;
+    
+  
+   
+
+}
+
+
+#feedbackContent{
+    width: 398px;
+    height:296px;
+    background-color: cyan;
+}
+
+#input{
+    width: 398px;
+    height: 224px;
+    background-color: purple;
+}
+
+#button{
+    width: 398px;
+    height: 72px;
+    background-color: bisque;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+

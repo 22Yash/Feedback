@@ -1,0 +1,50 @@
+/* Placement of FAB */
+.fab {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+  }
+  
+  /* FAB Button Styles */
+  .fab-button {
+    width: 56px;
+    height: 56px;
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .fab-icon {
+    color:red;
+    width: 60px;
+    height: 60px;
+    
+  }
+  
+  /* Selected FAB Button Styles */
+  .fab-button.selected {
+    background-color: #808080;
+  }
+  
+  .fab-button.selected::after {
+    content: "";
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px rgba(128, 128, 128, 0.3);
+    position: absolute;
+  }
+  
+  /* FAB Text Styles */
+  .fab-text {
+    position: absolute;
+    bottom: 96px;
+    right: 16px;
+    background-color: #F8F8F8;
+    padding: 8px 16px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+  }
