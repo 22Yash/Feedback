@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './feedback.css'
+import FabButton from "../fab button/FabButton";
 
 function Feedback() {
     const [selectedOption, setSelectedOption] = useState("");
@@ -12,6 +13,7 @@ function Feedback() {
   return (
     <>
     <div id="feedback">
+    
         <div id="card">
         <div id="header">
           <p>Let us know your Feedback about us!</p>
@@ -23,10 +25,14 @@ function Feedback() {
 
             </div>
             <div id="button">
-                <button type="submit">Submit</button>
+                <button type="submit">
+                  <p>Submit</p></button>
             </div>
           
         </div>  
+        <div id="fab">
+        <FabButton isRow={true}/>
+        </div>
         </div>
 
         
