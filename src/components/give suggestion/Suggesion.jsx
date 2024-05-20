@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import "./Suggesion.css";
+import FabButton from "../fab button/FabButton";
 
 function Suggesion() {
   const [selectedOption, setSelectedOption] = useState("");
@@ -55,6 +56,10 @@ function Suggesion() {
             </div>
           </div>
         </div>
+        <div id="fab">
+        <FabButton isRow={true}/>
+        </div>
+        
       </div>
     </>
   );

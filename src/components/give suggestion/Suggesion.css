@@ -8,6 +8,9 @@
     width: 430px;
     height: 608px;
     background-color: peru;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
 }
 
 #suggestion{
@@ -30,7 +33,7 @@
     height: 72px;
     gap: 24px;
     padding-top: 30px;
-    font-family: "Poppins", sans-serif;
+        
     padding: 24px, 16px, 24px, 16px;
     
 
@@ -55,6 +58,8 @@ p{
    
 
 }
+
+
 
 #issueContent{
     width: 398px;

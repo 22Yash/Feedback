@@ -3,48 +3,221 @@
     position: fixed;
     bottom: 32px;
     right: 32px;
+    height: 400px;
+    
   }
   
-  /* FAB Button Styles */
-  .fab-button {
-    width: 56px;
-    height: 56px;
+  
+ 
+ 
+
+
+  .hamburger-container {
+    position: relative;
     
-    border-radius: 50%;
+    
+  }
+  
+  .hamburger {
+    width: 256px;
+    height: 380px;
+    
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    
+  }
+  
+  .hamburger span {
+    display: block;
+    position: absolute;
+    height: 4px;
+   
+
+    
+  background-color: black;
+   
+    bottom: 32px;
+  }
+
+  
+  
+  
+
+  .menu-bar {
+    position: absolute;
+    width: 256px;
+    height:312px;
+   
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    bottom: 68px;
+  }
+  
+  .close-button {
+    align-self: flex-start;
+    bottom: 32px;
+    right: 32px;
+    position: absolute;
+  }
+  
+  .vertical-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .menu-bar.row {
+    flex-direction: row;
+    width: 332px;
+    height: 60px;
+   
+    
+  }
+  
+  .vertical-menu.row {
+    flex-direction: row;
+    background-color: red;
+    width: 332px;
+    height: 60px;
+    gap: 1px;
+    position: relative;
+   bottom: -325px;
+   right: 100px;
+
+  }
+
+  
+  .vertical-menu.row li {
+    
+  }
+
+  .vertical-menu.row li #title{
+    display: none;
+  }
+  
+  .vertical-menu li:nth-child(1) {
+   
+    display: flex ;
+    gap: 16px;
+    width: 248px;
+    height: 60px;
+    position: relative;
+    right: -19px;
+    
+    align-items: center;
+  }
+  #title1{
+    width:172px;
+    height: 34px;
+    background-color: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
-  }
+    border: 1px solid #CCCCCC;
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 4px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 500;
+     text-align: center;
   
-  .fab-icon {
-    color:red;
+  }
+
+  
+  #img1{
     width: 60px;
     height: 60px;
+  }
+
+  .vertical-menu li:nth-child(2) {
+   
+    display: flex ;
+    gap: 16px;
+    width: 255px;
+    height: 60px;
+    position: relative;
+    right: -12px;
+    align-items: center;
+
+  }
+  #title2{
+    width:172px;
+    height: 34px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CCCCCC;
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 4px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 500;
+     text-align: center;
+
+  
+  }
+
+  .vertical-menu li:nth-child(3) {
     
+    display: flex ;
+    gap: 16px;
+    width: 256px;
+    height: 60px;
+    position: relative;
+    right: -10px;
+    align-items: center;
   }
+  #title3{
+    width:172px;
+    height: 34px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CCCCCC;
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 4px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 500;
+     text-align: center;
   
-  /* Selected FAB Button Styles */
-  .fab-button.selected {
-    background-color: #808080;
   }
-  
-  .fab-button.selected::after {
-    content: "";
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    box-shadow: 0 0 0 8px rgba(128, 128, 128, 0.3);
-    position: absolute;
+
+  .vertical-menu li:nth-child(4) {
+    
+    display: flex ;
+    gap: 16px;
+    width: 209px;
+    height: 60px;
+    position: relative;
+    right: -58px;
+    align-items: center;
   }
+
+  #title4{
+    width:172px;
+    height: 34px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CCCCCC;
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 4px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 500;
+     text-align: center;
   
-  /* FAB Text Styles */
-  .fab-text {
-    position: absolute;
-    bottom: 96px;
-    right: 16px;
-    background-color: #F8F8F8;
-    padding: 8px 16px;
-    border-radius: 16px;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
   }
