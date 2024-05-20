@@ -16,7 +16,7 @@ function App() {
     {/* <CloseView/> */}
     <div id="hero">
     {/* <Issue/> */}
-    <Feedback/>
+    {/* <Feedback/> */}
     <Suggesion/>
     </div>
     

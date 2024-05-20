@@ -8,7 +8,9 @@ import fab4 from "./Fab4.png";
 import Issue from "../report an issue/Issue";
 
 
+
 function FabButton({ isRow = false }) {
+  
   const [showMenu, setShowMenu] = useState(false);
   const [selectedComponent, setSelectedComponent] = useState(null);
 
@@ -22,16 +24,9 @@ function FabButton({ isRow = false }) {
   };
   return (
     <>
+    
       <div className="fab">
-        {/* <div
-        className={`fab-button ${selected ? 'selected' : ''}`}
-        onClick={onClick}
-      >
-        <span className="fab-icon">
-            <img src={fab} alt="" />
-        </span>
-      </div>
-      {selected && <div className="fab-text">FAB Text</div>} */}
+        
         <div className="hamburger-container">
           <div
             className={`hamburger ${showMenu ? "open" : ""}`}

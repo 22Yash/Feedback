@@ -8,6 +8,7 @@
   }
   
   
+  
  
  
 
@@ -85,13 +86,13 @@
   
   .vertical-menu.row {
     flex-direction: row;
-    background-color: red;
+      
     width: 332px;
     height: 60px;
     gap: 1px;
     position: relative;
-   bottom: -325px;
-   right: 100px;
+   bottom: -332px;
+   right: 80px;
 
   }
 
@@ -149,6 +150,10 @@
     align-items: center;
 
   }
+  #img2{
+    width: 60px;
+    height: 60px;
+  }
   #title2{
     width:172px;
     height: 34px;
@@ -177,6 +182,10 @@
     right: -10px;
     align-items: center;
   }
+  #img3{
+    width: 60px;
+    height: 60px;
+  }
   #title3{
     width:172px;
     height: 34px;
@@ -201,10 +210,15 @@
     width: 209px;
     height: 60px;
     position: relative;
-    right: -58px;
+    right: -5px;
     align-items: center;
   }
 
+
+  #img4{
+    width: 60px;
+    height: 60px;
+  }
   #title4{
     width:172px;
     height: 34px;
@@ -221,3 +235,63 @@
      text-align: center;
   
   }
+
+  @media screen and (max-width: 600px){
+
+    .fab{
+      position: absolute;
+      bottom: 500px;
+      
+    }
+
+    .vertical-menu.row {
+      flex-direction: row;
+      
+      width: 336px;
+      height: 48px;
+      gap: 1px;
+      
+      padding: 0px, 16px, 0px, 1px;
+      position: relative;
+     bottom: -335px;
+     right: 10px;
+  
+
+    }
+
+
+    .fab-icon{
+      margin-right: -40px;
+    }
+
+    .vertical-menu li:nth-child(4) {
+    
+      display: flex ;
+      gap: 16px;
+      width: 209px;
+      height: 60px;
+      position: relative;
+      right: 8px;
+      align-items: center;
+    }
+
+
+    #img1{
+      width: 48px;
+      height: 48px;
+    }
+    #img2{
+      width: 48px;
+      height: 48px;
+    }
+    #img3{
+      width: 48px;
+      height: 48px;
+    }
+    #img4{
+      width: 48px;
+      height: 48px;
+    }
+  }
+ 
+

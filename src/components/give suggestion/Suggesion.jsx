@@ -27,7 +27,7 @@ function Suggesion() {
 
           <div id="issueContent">
             <div id="chooseSection">
-              <div className="chooseLAbel">
+              <div className="chooseLabel">
                 <h5>Choose a section</h5>
               </div>
               <div className="dropdown">
