@@ -5,8 +5,10 @@
     width:  430px;
     height:  536px;
     background-color: #F8F8F8;
-   top: 384px;
-   left: 978px;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+  
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -14,6 +16,11 @@
    
 }
 
+#card{
+    width:  430px;
+    height:  608px;
+
+}
 #header{
     width: 398px;
     height: 72px;

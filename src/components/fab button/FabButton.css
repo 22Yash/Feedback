@@ -68,11 +68,16 @@
   }
   
   .vertical-menu {
+    width: 256px;
+    height: 312px ;
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
+
     
   }
 
@@ -96,19 +101,40 @@
 
   }
 
+  #Navigation{
+   
+    width: 248px;
+    height: 60px;
+    display: flex;
+    right:10px;
+    position: relative;
+    gap: 10px;
+    align-items: center;
+  }
+
+  #Navigation2{
+    
+    width: 248px;
+    height: 60px;
+    display: flex;
+    right:-10px;
+    position: relative;
+    gap: 2  0px;
+    align-items: center;
+  }
+
   
   .vertical-menu.row li {
+    display: flex ;
     
   }
 
-  .vertical-menu.row li #title{
-    display: none;
-  }
+ 
   
   .vertical-menu li:nth-child(1) {
    
     display: flex ;
-    gap: 16px;
+    
     width: 248px;
     height: 60px;
     position: relative;
@@ -135,8 +161,17 @@
 
   
   #img1{
-    width: 60px;
+    width: 10px;
     height: 60px;
+    
+  }
+
+  #img2{
+    width: 10px;
+    height: 60px;
+    position: relative;
+    right: 2px;
+    
   }
 
   .vertical-menu li:nth-child(2) {
@@ -206,20 +241,222 @@
   .vertical-menu li:nth-child(4) {
     
     display: flex ;
-    gap: 16px;
+    
     width: 209px;
     height: 60px;
     position: relative;
-    right: -5px;
+    
     align-items: center;
+    
   }
 
 
-  #img4{
+  #img{
+    width: 30px;
+    height: 30px;
+  }
+  #title4{
+    width:172px;
+    height: 34px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CCCCCC;
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 4px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 500;
+     text-align: center;
+    
+  
+  }
+
+  @media screen and (max-width: 600px){
+
+    .fab{
+      position: absolute;
+      bottom: 24px;
+      right: 24px;
+      
+    }
+
+    .menu-bar {
+      position: absolute;
+      width: 219px;
+      height:240px;
+     
+      
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      bottom: 68px;
+    }
+    
+    .close-button {
+      align-self: flex-start;
+      bottom: 32px;
+      right: 32px;
+      position: absolute;
+    }
+    
+    .vertical-menu {
+      width: 256px;
+      height: 312px ;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-right:-30px;
+      gap: 26px;
+      
+  
+      
+    }
+  
+    .menu-bar.row {
+      flex-direction: row;
+      
+     
+      
+    }
+    
+    .vertical-menu.row {
+      flex-direction: row;
+        
+      
+      gap: 1px;
+      position: relative;
+     bottom: -332px;
+     right: 80px;
+  
+    }
+  
+    #Navigation{
+     
+      width: 212px;
+      height: 40px;
+     
+      display: flex;
+      right:10px;
+      position: relative;
+      gap: 10px;
+      align-items: center;
+    }
+  
+    #Navigation2{
+      
+      width: 248px;
+      height: 60px;
+      display: flex;
+      right:-10px;
+      position: relative;
+      gap: 2  0px;
+      align-items: center;
+    }
+  
+    
+    .vertical-menu.row li {
+      display: flex ;
+      
+    }
+  
+   
+    
+    .vertical-menu li:nth-child(1) {
+     
+      display: flex ;
+      
+      width: 213px;
+      height: 40px;
+      position: relative;
+      right: -19px;
+      
+      align-items: center;
+    }
+    #title1{
+      width:172px;
+      height: 34px;
+      background-color: white;
+      color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #CCCCCC;
+      padding: 8px, 16px, 8px, 16px;
+      border-radius: 4px;
+       font-family: "Poppins", sans-serif;
+       font-weight: 500;
+       text-align: center;
+    
+    }
+  
+    
+    #img1{
+      width: 40px;
+      height: 40px;
+      margin-top: -30px;
+      
+    }
+  
+    #img2{
+      width: 10px;
+      height: 60px;
+      position: relative;
+      right: 2px;
+      
+    }
+
+    
+  .vertical-menu li:nth-child(2) {
+   
+    display: flex ;
+    gap: 16px;
+    width: 213px;
+    height: 40px;
+    position: relative;
+    right: -20px;
+    align-items: center;
+
+  }
+  #img2{
     width: 60px;
     height: 60px;
   }
-  #title4{
+  #title2{
+    width:172px;
+    height: 34px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CCCCCC;
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 4px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 500;
+     text-align: center;
+
+  
+  }
+
+  .vertical-menu li:nth-child(3) {
+    
+    display: flex ;
+    gap: 16px;
+    width: 213px;
+    height: 40px;
+    position: relative;
+    right: -20px;
+    align-items: center;
+  }
+  
+  #title3{
     width:172px;
     height: 34px;
     background-color: white;
@@ -236,62 +473,40 @@
   
   }
 
-  @media screen and (max-width: 600px){
-
-    .fab{
-      position: absolute;
-      bottom: 500px;
-      
-    }
-
-    .vertical-menu.row {
-      flex-direction: row;
-      
-      width: 336px;
-      height: 48px;
-      gap: 1px;
-      
-      padding: 0px, 16px, 0px, 1px;
-      position: relative;
-     bottom: -335px;
-     right: 10px;
-  
-
-    }
-
-
-    .fab-icon{
-      margin-right: -40px;
-    }
-
-    .vertical-menu li:nth-child(4) {
+  .vertical-menu li:nth-child(4) {
     
-      display: flex ;
-      gap: 16px;
-      width: 209px;
-      height: 60px;
-      position: relative;
-      right: 8px;
-      align-items: center;
-    }
+    display: flex ;
+    
+    width: 209px;
+    height: 40px;
+    position: relative;
+    
+    align-items: center;
+    
+  }
 
 
-    #img1{
-      width: 48px;
-      height: 48px;
-    }
-    #img2{
-      width: 48px;
-      height: 48px;
-    }
-    #img3{
-      width: 48px;
-      height: 48px;
-    }
-    #img4{
-      width: 48px;
-      height: 48px;
-    }
+  #img{
+    width: 30px;
+    height: 30px;
+  }
+  #title4{
+    width:172px;
+    height: 34px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CCCCCC;
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 4px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 500;
+     text-align: center;
+    
+  
+  }
   }
  
 

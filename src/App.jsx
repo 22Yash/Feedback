@@ -13,12 +13,12 @@ function App() {
 
   return (
     <>
-    {/* <CloseView/> */}
-    <div id="hero">
+    <CloseView/>
+    {/* <div id="hero"> */}
     {/* <Issue/> */}
-    <Feedback/>
+    {/* <Feedback/> */}
     {/* <Suggesion/> */}
-    </div>
+    {/* </div> */}
     
     </>
   )

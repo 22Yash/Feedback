@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import FabButton from "../fab button/FabButton";
 
 import "./issue.css";
 
@@ -13,6 +14,7 @@ function Issue() {
   return (
     <>
       <div id="issue">
+        <div id="card">
         <div id="header">
           <p>Let us know about the Issue you are facing right now!</p>
         </div>
@@ -50,6 +52,13 @@ function Issue() {
             
           </div>
         </div>
+
+        </div>
+        <div id="fab">
+        <FabButton isRow={true}/>
+        </div>
+       
+
       </div>
     </>
   );
